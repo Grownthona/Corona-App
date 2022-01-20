@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminshowProductDetails">
+
+    <TextView
+        android:id="@+id/textView152"
+        android:layout_width="116dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="12dp"
+        android:text="User Address"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView150" />
+
+    <TextView
+        android:id="@+id/textView150"
+        android:layout_width="116dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:text="User Name"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView142" />
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:text="250Tk"
+        android:textColor="#353434"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.224"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme" />
+
+    <TextView
+        android:id="@+id/mednme"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/biryani_bold"
+        android:text="Napa Extra"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.137"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ctgryy" />
+
+    <TextView
+        android:id="@+id/ctgryy"
+        android:layout_width="140dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="96dp"
+        android:text="Vitamin"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="102dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="92dp"
+        android:fontFamily="@font/donegal_one"
+        android:text="Details"
+        android:textColor="#020202"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme" />
+
+    <Button
+        android:id="@+id/deliverbtn"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_marginBottom="32dp"
+        android:text="Delivered"
+        android:textAllCaps="false"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme"
+        app:srcCompat="@drawable/takasign" />
+
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.876"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cartt">
+
+    </ImageView>
+
+    <TextView
+        android:id="@+id/showcartnumber"
+        android:layout_width="33dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="4dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView142"
+        android:layout_width="116dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="8dp"
+        android:text="Product ID "
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView149"
+        android:layout_width="150dp"
+        android:layout_height="33dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/textView142"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView142"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView151"
+        android:layout_width="144dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/textView150"
+        app:layout_constraintStart_toEndOf="@+id/textView150"
+        app:layout_constraintTop_toTopOf="@+id/textView150"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView153"
+        android:layout_width="225dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/textView152"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView150"
+        app:layout_constraintVertical_bias="0.057" />
+
+    <ImageView
+        android:id="@+id/imageView55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textView151"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toEndOf="@+id/mednme"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.469"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

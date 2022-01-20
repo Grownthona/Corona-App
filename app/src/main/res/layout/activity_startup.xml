@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Startup">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="69dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/finalogo" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="269dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="Find What You Need To Survive COVID-19"
+        android:textColor="@color/black"
+        android:textSize="60px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="255dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:lineHeight="22sp"
+        android:text="We help you to provide essential services to keep you  safe."
+        android:textColor="#505050"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="287dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        app:srcCompat="@drawable/kik" />
+
+    <Button
+        android:id="@+id/signinn"
+        android:layout_width="275dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/background"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif"
+        android:text="Get Started"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <Button
+        android:id="@+id/signinn2"
+        android:layout_width="275dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonborder"
+        android:backgroundTint="@color/black"
+        android:elevation="7dp"
+        android:fontFamily="sans-serif"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        app:backgroundTint="#F3FFFDFD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.455"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

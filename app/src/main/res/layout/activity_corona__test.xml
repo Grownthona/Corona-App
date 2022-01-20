@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design01"
+    tools:context=".Corona_Test">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="415dp"
+        android:layout_height="616dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/background2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/nid"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/box"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="149dp"
+            android:layout_height="26dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Email Address"
+            android:textColor="#1C1C1C"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.199"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phn" />
+
+        <EditText
+            android:id="@+id/phn"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/box"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="92dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Phone"
+            android:textColor="#1C1C1C"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/firstt" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="92dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Name"
+            android:textColor="#1C1C1C"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.164"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="294dp"
+            android:layout_height="84dp"
+            android:layout_marginTop="64dp"
+            android:fontFamily="@font/adamina"
+            android:gravity="center"
+            android:text="Please Enter your following information to get register for your COVID-19 Test"
+            android:textColor="#3D3C3E"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/firstt"
+            android:layout_width="307dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/box"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.49"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+        <Button
+            android:id="@+id/gonext"
+            android:layout_width="208dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="@color/black"
+            android:text="Next"
+            android:textAllCaps="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nid" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="212dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/biryani_bold"
+        android:gravity="center"
+        android:text="Information"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".Choose_Option" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:layout_marginTop="80dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="341dp"
+            android:layout_height="285dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/gotest"
+            android:layout_width="280dp"
+            android:layout_height="57dp"
+            android:layout_marginBottom="64dp"
+            android:text="Next"
+
+            app:backgroundTint="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintHorizontal_bias="0.54"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calendarView"
+            app:layout_constraintVertical_bias="0.982" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="69dp"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="62dp"
+            android:layout_marginRight="52dp"
+            app:boxStrokeWidth="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calendarView">
+
+            <AutoCompleteTextView
+                android:id="@+id/autoC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:backgroundTint="@color/white"
+                android:inputType="none"
+                android:text="Morning" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="255dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:lineHeight="20dp"
+            android:text="Please select your prefered Date and Time for the test:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/showdte"
+            android:layout_width="126dp"
+            android:layout_height="32dp"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="8dp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gotest" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="264dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Choose Date and Time"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

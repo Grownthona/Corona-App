@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Corona_Test3">
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="276dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:lineHeight="20dp"
+        android:text="Please enter your Birthday and Gender for the test:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/biryani_bold"
+        android:gravity="center"
+        android:text="Add to Cart"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="240dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="252dp"
+        android:text="Next"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coronabookprice"
+        app:layout_constraintVertical_bias="0.842" />
+
+    <TextView
+        android:id="@+id/coronabookprice"
+        android:layout_width="150dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="279dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:gravity="center"
+        android:text="3750 Tk"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/minus"
+        app:layout_constraintStart_toEndOf="@+id/plus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="66dp"
+        android:text="-"
+        android:textSize="35sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/coronabookprice" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="66dp"
+        android:text="+"
+        android:textSize="35sp"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/confirm"
+        app:layout_constraintEnd_toStartOf="@+id/coronabookprice"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

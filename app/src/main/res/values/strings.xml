@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SD</string>
+    <string-array name="numbers">
+        <item>Morning</item>
+        <item>Noon</item>
+        <item>Afternoon</item>
+        <item>Night</item>
+    </string-array>
+
+    <string-array name="catagories">
+        <item>Medicine</item>
+        <item>Mask</item>
+        <item>Disinfect</item>
+        <item>Hand Sanitizer</item>
+        <item>Hygiene</item>
+        <item>Digestive</item>
+        <item>Emergency</item>
+    </string-array>
+</resources>

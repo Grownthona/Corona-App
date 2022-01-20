@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondVideo">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView25"
+        android:layout_width="407dp"
+        android:layout_height="67dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView37"
+                android:layout_width="31dp"
+                android:layout_height="31dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/menu_bar" />
+
+            <ImageView
+                android:id="@+id/iprof"
+                android:layout_width="39dp"
+                android:layout_height="34dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginRight="28dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profile" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="269dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView172"
+            android:layout_width="359dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="52dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginRight="14dp"
+            android:fontFamily="@font/adamina"
+            android:text="Quarantine can be a time for self-care and relaxation"
+            android:textColor="#000000"
+            android:textSize="26sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/videoView"
+            app:lineHeight="40dp" />
+
+        <TextView
+            android:id="@+id/textView173"
+            android:layout_width="373dp"
+            android:layout_height="279dp"
+            android:layout_marginStart="29dp"
+            android:layout_marginLeft="29dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="29dp"
+            android:layout_marginRight="29dp"
+            android:fontFamily="@font/arimo"
+            android:lineSpacingExtra="8sp"
+            android:text="A quarantine is a period of time where someone stays at home. It’s the next step in physical distancing to “flatten the curve,” or slow the rate of infection. Isolation – different from quarantine – is when someone who is waiting to be tested for COVID-19, waiting for their test results or has tested positive is secluded to prevent them from spreading the virus to others."
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView172"
+            app:lineHeight="28dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar7"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="181dp"
+            android:layout_marginLeft="181dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="182dp"
+            android:layout_marginRight="182dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView173" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCode">
+
+    <TextView
+        android:id="@+id/textView244"
+        android:layout_width="300dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:gravity="center"
+        android:text="Enter Your Admin Code"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="293dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginRight="63dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView244" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="133dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="139dp"
+        android:layout_marginRight="139dp"
+        android:text="Submit"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code" />
+</androidx.constraintlayout.widget.ConstraintLayout>

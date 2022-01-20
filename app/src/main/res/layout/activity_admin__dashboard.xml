@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Dashboard">
+
+    <Button
+        android:id="@+id/addp"
+        android:layout_width="282dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="100dp"
+        android:text="Add Product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="276dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:text="View Product Requests"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addp" />
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="270dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        android:text="View Corona Test Request"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button23" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="280dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:text="Appoinments"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="273dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:text="Prescriptions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button19" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="270dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginRight="76dp"
+        android:text="Productlists"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button22"
+        app:layout_constraintVertical_bias="0.25" />
+</androidx.constraintlayout.widget.ConstraintLayout>

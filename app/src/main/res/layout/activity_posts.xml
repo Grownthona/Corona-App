@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Posts">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/postwrite"
+            android:layout_width="336dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/edit"
+            android:ems="10"
+            android:hint="Write Something....."
+            android:inputType="textPersonName"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView49"
+            app:layout_constraintTop_toBottomOf="@+id/textView177" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/postshow"
+            android:layout_width="416dp"
+            android:layout_height="376dp"
+            android:layout_marginTop="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postwrite" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView26"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_marginTop="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/textView171"
+                    android:layout_width="204dp"
+                    android:layout_height="51dp"
+                    android:layout_marginStart="110dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginEnd="110dp"
+                    android:layout_marginRight="110dp"
+                    android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/roboto"
+                    android:gravity="center"
+                    android:text="Help Posts"
+                    android:textColor="@color/black"
+                    android:textSize="23sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="54dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            app:layout_constraintEnd_toStartOf="@+id/postwrite"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView177"
+            app:srcCompat="@drawable/analyser" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="136dp"
+            android:layout_height="106dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView26"
+            app:srcCompat="@drawable/socialmedia" />
+
+        <TextView
+            android:id="@+id/textView175"
+            android:layout_width="230dp"
+            android:layout_height="69dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:text="Need Help from Community?"
+            android:textColor="#020202"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.92"
+            app:layout_constraintStart_toEndOf="@+id/imageView53"
+            app:layout_constraintTop_toBottomOf="@+id/cardView26" />
+
+        <TextView
+            android:id="@+id/textView176"
+            android:layout_width="230dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            android:padding="10dp"
+            android:text="In this section, you can ask for help to people who're connecting with us and also you can help others."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.764"
+            app:layout_constraintStart_toEndOf="@+id/imageView53"
+            app:layout_constraintTop_toBottomOf="@+id/textView175" />
+
+        <TextView
+            android:id="@+id/textView177"
+            android:layout_width="match_parent"
+            android:layout_height="8dp"
+            android:background="#ECECEC"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView176" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Videolist">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/textView165"
+        android:layout_width="199dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/adamina"
+        android:gravity="start"
+        android:text="Prevention Videos"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.179"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineHeight="45dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardk"
+        android:layout_width="353dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardfront" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView178"
+                android:layout_width="228dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@font/nunito_sans"
+                android:text="Quarantine can be a time for self-care and relaxation"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView181"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="148dp"
+                android:layout_marginRight="148dp"
+                android:text="1:39"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView178" />
+
+            <ImageView
+                android:id="@+id/imageView60"
+                android:layout_width="73dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.375"
+                app:srcCompat="@drawable/mixing" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView178"
+                app:layout_constraintVertical_bias="0.787"
+                app:srcCompat="@drawable/play" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardk3"
+        android:layout_width="353dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardk" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView1783"
+                android:layout_width="228dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@font/nunito_sans"
+                android:text="Three factors help you make safer choices during COVID-19"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView1813"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="144dp"
+                android:layout_marginRight="144dp"
+                android:text="1:38"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.875"
+                app:layout_constraintStart_toEndOf="@+id/imageView603"
+                app:layout_constraintTop_toBottomOf="@+id/textView1783" />
+
+            <ImageView
+                android:id="@+id/imageView603"
+                android:layout_width="81dp"
+                android:layout_height="88dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/sym03" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton72"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView1783"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/play" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardk4"
+        android:layout_width="353dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardk3" >
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView17834"
+                android:layout_width="228dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="18dp"
+                android:layout_marginRight="18dp"
+                android:fontFamily="@font/nunito_sans"
+                android:text="Quarantine can be a time for self-care and relaxation"
+                android:textColor="#232323"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView18134"
+                android:layout_width="99dp"
+                android:layout_height="31dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="144dp"
+                android:layout_marginRight="144dp"
+                android:text="1:01"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.875"
+                app:layout_constraintStart_toEndOf="@+id/imageView6034"
+                app:layout_constraintTop_toBottomOf="@+id/textView17834" />
+
+            <ImageView
+                android:id="@+id/imageView6034"
+                android:layout_width="77dp"
+                android:layout_height="88dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="4dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/three" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/floatingActionButton724"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:clickable="true"
+                app:backgroundTint="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/textView17834"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/play" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView166"
+        android:layout_width="220dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:text="If COVID-19 is spreading in your community, stay safe by taking some simple precautions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.281"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView165"
+        app:lineHeight="25dp" />
+
+    <TextView
+        android:id="@+id/textView167"
+        android:layout_width="2dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="159dp"
+        android:background="#6A6A6A"
+        android:text="TextView"
+        app:layout_constraintStart_toEndOf="@+id/textView166"
+        app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView168"
+            android:layout_width="113dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="164dp"
+            android:fontFamily="@font/adamina"
+            android:text="4 Minute"
+            android:textColor="#191919"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.727"
+            app:layout_constraintStart_toEndOf="@+id/textView167"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView169"
+        android:layout_width="110dp"
+        android:layout_height="33dp"
+        android:text="Duration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.756"
+        app:layout_constraintStart_toEndOf="@+id/textView167"
+        app:layout_constraintTop_toBottomOf="@+id/textView168" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardfront"
+        android:layout_width="312dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView166">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView58"
+                android:layout_width="505dp"
+                android:layout_height="221dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/last" />
+
+            <ImageView
+                android:id="@+id/imageView59"
+                android:layout_width="63dp"
+                android:layout_height="46dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.811"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.723"
+                app:srcCompat="@drawable/play" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/actor</item>
+        <item>@font/adamina</item>
+        <item>@font/amiko</item>
+        <item>@font/arimo</item>
+        <item>@font/baloo</item>
+        <item>@font/biryani_bold</item>
+        <item>@font/cabin</item>
+        <item>@font/candal</item>
+        <item>@font/cardo</item>
+        <item>@font/cardo_bold</item>
+        <item>@font/donegal_one</item>
+        <item>@font/hind</item>
+        <item>@font/hind_guntur</item>
+        <item>@font/hind_guntur_medium</item>
+        <item>@font/hind_semibold</item>
+        <item>@font/merienda_one</item>
+        <item>@font/nunito_sans</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_bold</item>
+        <item>@font/roboto_medium</item>
+    </array>
+</resources>

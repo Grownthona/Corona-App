@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoronaSymtomp_03">
+
+    <TextView
+        android:id="@+id/textView1632"
+        android:layout_width="66dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="252dp"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="8dp"
+        android:background="#3F51B5"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nobtn2" />
+
+    <TextView
+        android:id="@+id/nobtn2"
+        android:layout_width="125dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:text="No"
+        app:layout_constraintBottom_toBottomOf="@+id/ybtn2"
+        app:layout_constraintStart_toEndOf="@+id/ybtn2"
+        app:layout_constraintTop_toTopOf="@+id/ybtn2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="278dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/breathproblem" />
+
+    <TextView
+        android:id="@+id/textView104"
+        android:layout_width="332dp"
+        android:layout_height="109dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Do you have asthma or having trouble breathing?"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView43"
+        app:lineHeight="35dp" />
+
+    <TextView
+        android:id="@+id/textView105"
+        android:layout_width="326dp"
+        android:layout_height="96dp"
+        android:gravity="center"
+        android:text="You are having to breathe faster than usual or are getting fatigued or breathing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView104"
+        app:lineHeight="30dp" />
+
+    <TextView
+        android:id="@+id/ybtn2"
+        android:layout_width="125dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/blackborder"
+        android:gravity="center"
+        android:text="Yes"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105" />
+
+    <ImageView
+        android:id="@+id/nextp2"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="355dp"
+        android:layout_marginLeft="355dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView105"
+        app:srcCompat="@drawable/moree" />
+
+    <TextView
+        android:id="@+id/textView1012"
+        android:layout_width="66dp"
+        android:layout_height="7dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="8dp"
+        android:background="#3F51B5"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ybtn2" />
+
+    <TextView
+        android:id="@+id/textView163"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

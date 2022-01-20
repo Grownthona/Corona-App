@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Sign_up2">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="158dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/reg11" />
+
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="321dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/donegal_one"
+        android:gravity="center"
+        android:paddingTop="20sp"
+        android:text="Verification"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/textViewp"
+        android:layout_width="321dp"
+        android:layout_height="48dp"
+
+        android:layout_marginTop="12dp"
+        android:gravity="center"
+        android:text="Select the Country code and Enter Number."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.655"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewl" />
+
+    <com.hbb20.CountryCodePicker
+        android:id="@+id/codepicker"
+        android:layout_width="316dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="16dp"
+        app:ccpDialog_showNameCode="true"
+        app:ccp_autoDetectCountry="true"
+        app:ccp_showFlag="true"
+        app:ccp_showFullName="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewp" />
+
+    <EditText
+        android:id="@+id/kkkkkaddress"
+        android:layout_width="323dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColorHint="#555555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codepicker" />
+
+    <Button
+        android:id="@+id/next2"
+        android:layout_width="332dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="20dp"
+        android:text="Next"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.568"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkkkkaddress" />
+
+    <ProgressBar
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/next2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

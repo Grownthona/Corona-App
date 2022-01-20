@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Essential_Catagory">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/reccat"
+        android:layout_width="410dp"
+        android:layout_height="653dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recyclerView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView6"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView195"
+                android:layout_width="70dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="44dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="All"
+                android:textColor="#131313"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.053"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/showcartnumber"
+                android:layout_width="21dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:background="#3F51B5"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView33"
+                android:layout_width="33dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginRight="52dp"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/cartt">
+
+            </ImageView>
+
+            <TextView
+                android:id="@+id/textView73"
+                android:layout_width="114dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="4dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Products"
+                android:textColor="#131313"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.43"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/Medicines"
+                android:layout_width="114dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Medicines"
+                android:textColor="#131313"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/textView195"
+                app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+            <TextView
+                android:id="@+id/Essen"
+                android:layout_width="wrap_content"
+                android:layout_height="37dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="19dp"
+                android:layout_marginRight="19dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Essentials"
+                android:textColor="#131313"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/Medicines"
+                app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView4"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView6" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cartshiwbuttonlayout5"
+        android:layout_width="407dp"
+        android:layout_height="75dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cartshiwbutton2"
+            android:layout_width="305dp"
+            android:layout_height="51dp"
+            android:background="@color/black"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView13"
+                android:layout_width="32dp"
+                android:layout_height="33dp"
+                app:cardCornerRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.117"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.523">
+
+                <TextView
+                    android:id="@+id/textView958"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="18sp" />
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:id="@+id/textView969"
+                android:layout_width="106dp"
+                android:layout_height="28dp"
+                android:layout_marginStart="36dp"
+                android:layout_marginLeft="36dp"
+                android:gravity="center"
+                android:text="View your cart"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardView13"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.578" />
+
+            <TextView
+                android:id="@+id/textView979"
+                android:layout_width="46dp"
+                android:layout_height="26dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:textColor="#FFFFFF"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.476" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

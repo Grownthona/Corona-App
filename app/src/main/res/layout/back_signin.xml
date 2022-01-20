@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="331dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:lineHeight="40dp"
+
+        android:text="Want to Sign In as"
+        android:textColor="#0E0E0E"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fillname"
+        android:layout_width="360dp"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:lineHeight="25dp"
+
+        android:text=""
+        android:textColor="#0E0E0E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/nextf"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/edit"
+        android:text="Sign In"
+        android:textAllCaps="false"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fillname"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="153dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/idea" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

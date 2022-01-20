@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WritePost">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView26"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView171"
+                android:layout_width="204dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="110dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:text="Write Post"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView54"
+        android:layout_width="64dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView26"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView170"
+        android:layout_width="267dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginRight="23dp"
+        android:text="Grownthona Rahman"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toEndOf="@+id/imageView54"
+        app:layout_constraintTop_toBottomOf="@+id/cardView26" />
+
+    <EditText
+        android:id="@+id/write"
+        android:layout_width="369dp"
+        android:layout_height="203dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:hint="Write Something"
+
+        android:inputType="textImeMultiLine"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView54" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="142dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="135dp"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginRight="135dp"
+        android:text="Post"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/write" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

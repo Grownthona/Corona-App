@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostDetail">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView5"
+        android:layout_width="418dp"
+        android:layout_height="467dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView158"
+        app:layout_constraintVertical_bias="0.815" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView22"
+        android:layout_width="412dp"
+        android:layout_height="91dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/commentwrite"
+                android:layout_width="315dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginLeft="24dp"
+                android:layout_marginTop="17dp"
+                android:layout_marginBottom="22dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Write your comment"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <ImageView
+                android:id="@+id/imageView45"
+                android:layout_width="59dp"
+                android:layout_height="53dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="33dp"
+                android:layout_marginRight="33dp"
+                android:layout_marginBottom="30dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/commentwrite"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.619"
+                app:srcCompat="@drawable/nextpage" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView155"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:padding="10dp"
+        android:text="TextView"
+        android:textColor="#434343"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toTopOf="@+id/recyclerView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView158"
+        app:layout_constraintVertical_bias="0.179" />
+
+    <TextView
+        android:id="@+id/textView158"
+        android:layout_width="200dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Grownthona Rahman"
+        android:textColor="#272727"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.398"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView27"
+        android:layout_width="56dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="20dp"
+        app:cardCornerRadius="50dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView99"
+        app:layout_constraintEnd_toStartOf="@+id/textView79"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView5566"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/profile" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView156"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_marginTop="16dp"
+        android:background="#E4E4E4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView155" />
+
+    <TextView
+        android:id="@+id/textView197"
+        android:layout_width="154dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="305dp"
+        android:layout_marginRight="305dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="3dp"
+        android:text="Comments"
+        android:textColor="#373535"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView156" />
+</androidx.constraintlayout.widget.ConstraintLayout>

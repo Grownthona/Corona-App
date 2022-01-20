@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <TextView
+        android:id="@+id/textView53"
+        android:layout_width="108dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="248dp"
+        android:layout_marginRight="248dp"
+        android:text="250Tk"
+        android:textColor="#353434"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="341dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nulla ante, tincidunt nec mauris vel, tempus mollis metus. Sed tempor tincidunt sollicitudin. "
+        android:textColor="#656565"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35"
+        app:lineHeight="35dp" />
+
+    <TextView
+        android:id="@+id/mednme"
+        android:layout_width="149dp"
+        android:layout_height="49dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginRight="224dp"
+        android:fontFamily="@font/biryani_bold"
+        android:text="Napa Extra"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ctgryy" />
+
+    <TextView
+        android:id="@+id/ctgryy"
+        android:layout_width="140dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="24dp"
+        android:text="Vitamin"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.136"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView21" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="102dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="56dp"
+        android:fontFamily="@font/donegal_one"
+        android:text="About"
+        android:textColor="#020202"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme" />
+
+    <Button
+        android:id="@+id/deliverbtn"
+        android:layout_width="179dp"
+        android:layout_height="54dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="28dp"
+        android:text="Add to Cart"
+        android:textAllCaps="false"
+        app:backgroundTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="341dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/syrup" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="17dp"
+        android:layout_height="19dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mednme"
+        app:srcCompat="@drawable/takasign" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout6"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="@+id/textView36"
+        app:layout_constraintEnd_toStartOf="@+id/deliverbtn"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/deliverbtn">
+
+        <ImageView
+            android:id="@+id/minusss"
+            android:layout_width="20dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginEnd="6dp"
+            android:layout_marginRight="6dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/minus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="39dp"
+        android:layout_height="59dp"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/deliverbtn"
+        app:layout_constraintEnd_toStartOf="@+id/deliverbtn"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
+        app:layout_constraintTop_toTopOf="@+id/deliverbtn"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout68"
+        android:layout_width="32dp"
+        android:layout_height="30dp"
+        android:background="@drawable/box"
+        app:layout_constraintBottom_toBottomOf="@+id/textView36"
+        app:layout_constraintEnd_toStartOf="@+id/deliverbtn"
+        app:layout_constraintHorizontal_bias="0.573"
+        app:layout_constraintStart_toStartOf="@+id/textView36"
+        app:layout_constraintTop_toTopOf="@+id/deliverbtn">
+
+        <ImageView
+            android:id="@+id/addsdd"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="1dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/plusss" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

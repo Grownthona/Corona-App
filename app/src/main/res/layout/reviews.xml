@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView79"
+            android:layout_width="200dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="32dp"
+            android:text="Grownthona Rahman"
+            android:textColor="#272727"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.187"
+            app:layout_constraintStart_toEndOf="@+id/cardView28"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView99"
+            android:layout_width="287dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="5dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum diam elit, vestibulum sit amet gravida ut, aliquet eget est. Sed ut finibus neque."
+            android:textColor="#1C1C1C"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.79"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView79"
+            app:layout_constraintVertical_bias="0.034"
+            app:lineHeight="23dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView28"
+            android:layout_width="56dp"
+            android:layout_height="51dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginBottom="138dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" >
+
+            <ImageView
+                android:id="@+id/imageView56"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/profile" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView182"
+            android:layout_width="57dp"
+            android:layout_height="27dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView99"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.561" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginRight="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView99"
+            app:layout_constraintEnd_toStartOf="@+id/textView182"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toEndOf="@+id/textView79"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.609"
+            app:srcCompat="@drawable/star" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

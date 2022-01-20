@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".lastsign_up">
+
+    <EditText
+        android:id="@+id/kkkklllllk2"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="You're Doctor/User/Admin?"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColorHint="#555555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkkkkaddress" />
+
+    <EditText
+        android:id="@+id/kkkkk2"
+        android:layout_width="333dp"
+        android:layout_height="54dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColorHint="#555555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkkklllllk" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="284dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Fill Up the informations of follwing Criterea."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewl" />
+
+    <EditText
+        android:id="@+id/kkkkkaddress"
+        android:layout_width="333dp"
+        android:layout_height="114dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColorHint="#555555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkkkk2" />
+
+    <Button
+        android:id="@+id/nextf"
+        android:layout_width="316dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edit"
+        android:text="Address"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kkkklllllk2" />
+
+    <TextView
+        android:id="@+id/textViewl"
+        android:layout_width="321dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/donegal_one"
+        android:gravity="center"
+        android:paddingTop="20sp"
+        android:text="Informations"
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/kkkklllllk"
+        android:layout_width="332dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/box"
+        android:ems="10"
+        android:hint="Fullname"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:text=""
+        android:textColorHint="#555555"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

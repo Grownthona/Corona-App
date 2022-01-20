@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OderDetails">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="260dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="11dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="40-50 mins"
+            android:textColor="#292828"
+            android:textSize="36sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+        <TextView
+            android:id="@+id/textView65"
+            android:layout_width="310dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="116dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="Your order has been placed"
+            android:textColor="#292828"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="234dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView67"
+            app:srcCompat="@drawable/prepare" />
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="242dp"
+            android:layout_height="43dp"
+            android:gravity="center"
+            android:text="Estimated Delivery Time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="195dp"
+            android:layout_height="62dp"
+            android:text="Back to home"
+            app:backgroundTint="#040404"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.541"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView31"
+            app:layout_constraintVertical_bias="0.193" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

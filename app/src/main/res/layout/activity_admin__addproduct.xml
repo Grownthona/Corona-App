@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Addproduct">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/autoCompleteTextView2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="69dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginRight="52dp"
+        app:boxStrokeWidth="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prPrice">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:backgroundTint="@color/white"
+            android:inputType="none"
+            android:text="Mask" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/prPrice"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Product Price"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prname" />
+
+    <EditText
+        android:id="@+id/prname"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Prid" />
+
+    <EditText
+        android:id="@+id/Prid"
+        android:layout_width="310dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Product Id"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView108" />
+
+    <TextView
+        android:id="@+id/textView108"
+        android:layout_width="180dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Add Details"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/prDescription"
+        android:layout_width="312dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/autoCompleteTextView2" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="185dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="20dp"
+        android:text="Add"
+        android:textColorHint="#A19292"
+        app:backgroundTint="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maincat" />
+
+    <EditText
+        android:id="@+id/maincat"
+        android:layout_width="302dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:hint="Medicines/Essential"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uploadbutton2" />
+
+    <EditText
+        android:id="@+id/uploadbutton2"
+        android:layout_width="310dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:drawableLeft="@drawable/upload"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:hint="Upload your Image"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prDescription" />
+
+    <ImageView
+        android:id="@+id/imageView57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginRight="67dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView108"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back" />
+</androidx.constraintlayout.widget.ConstraintLayout>

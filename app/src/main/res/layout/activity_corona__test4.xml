@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".Corona_Test4">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="276dp"
+            android:layout_height="61dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:lineHeight="20dp"
+            android:text="Please enter your Birthday and Gender for the test:"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="92dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="32dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Birthday"
+            android:textColor="#1C1C1C"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+        <TextView
+            android:id="@+id/textView17u"
+            android:layout_width="92dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="44dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Gender"
+            android:textColor="#1C1C1C"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.177"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker1" />
+
+        <DatePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="327dp"
+            android:layout_height="181dp"
+            android:layout_marginTop="8dp"
+            android:calendarViewShown="false"
+            android:datePickerMode="spinner"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+        <Button
+            android:id="@+id/gonext"
+            android:layout_width="208dp"
+            android:layout_height="55dp"
+            android:layout_marginBottom="84dp"
+            android:backgroundTint="@color/black"
+            android:text="Next"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <RadioButton
+            android:id="@+id/radiomale"
+            android:layout_width="102dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginLeft="56dp"
+            android:layout_marginTop="4dp"
+            android:text="Male"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView17u" />
+
+        <RadioButton
+            android:id="@+id/radiofemale"
+            android:layout_width="107dp"
+            android:layout_height="53dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="72dp"
+            android:text="Female"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/radiomale"
+            app:layout_constraintTop_toBottomOf="@+id/datePicker1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="222dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/biryani_bold"
+        android:gravity="center"
+        android:text="Information"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

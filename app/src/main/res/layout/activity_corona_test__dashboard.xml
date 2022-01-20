@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CoronaTest_Dashboard">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView11"
+            android:layout_width="355dp"
+            android:layout_height="212dp"
+            android:layout_marginTop="100dp"
+            app:cardCornerRadius="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.567"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="431dp"
+                    android:layout_height="274dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.105"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/coronatesting" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="center"
+                    android:text="RT-PCR Test"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="170dp"
+                    android:layout_height="74dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/roboto"
+                    android:lineHeight="20dp"
+                    android:padding="8dp"
+                    android:text="Get test done at home for detecting Covid infection"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="123dp"
+                    android:layout_height="43dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginLeft="24dp"
+                    android:text="Book Now"
+                    android:textAllCaps="false"
+                    android:textSize="12sp"
+                    app:iconPadding="3dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView81"
+                    app:layout_constraintVertical_bias="0.407" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="407dp"
+            android:layout_height="67dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView37"
+                    android:layout_width="31dp"
+                    android:layout_height="31dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginLeft="28dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/menu_bar" />
+
+                <ImageView
+                    android:id="@+id/iprof"
+                    android:layout_width="39dp"
+                    android:layout_height="34dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginEnd="28dp"
+                    android:layout_marginRight="28dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/profile" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="28dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Symptoms"
+            android:textColor="#1B1A1A"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.061"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView11" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView12"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="122dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="500dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+            <ImageView
+                android:id="@+id/imageView39"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                app:srcCompat="@drawable/throat" />
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView17"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="500dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+            <ImageView
+                android:id="@+id/imageView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fever" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView19"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="212dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="500dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+            <ImageView
+                android:id="@+id/imageView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/diahhe" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView49"
+            android:layout_width="71dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="302dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="13dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82">
+
+            <ImageView
+                android:id="@+id/imageView50"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                app:srcCompat="@drawable/kkkkkkk" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginLeft="32dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Fever"
+            android:textColor="#000000"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardView12" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="70dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
+
+            android:gravity="center"
+            android:text="Throat Aching"
+            android:textColor="#000000"
+            app:layout_constraintStart_toEndOf="@+id/textView83"
+            app:layout_constraintTop_toBottomOf="@+id/cardView12" />
+
+        <TextView
+            android:id="@+id/textView85"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+
+            android:layout_marginStart="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+
+            android:text="Diarhea"
+            android:textColor="#000000"
+            app:layout_constraintStart_toEndOf="@+id/textView84"
+            app:layout_constraintTop_toBottomOf="@+id/cardView19" />
+
+        <TextView
+            android:id="@+id/textView88"
+            android:layout_width="70dp"
+            android:layout_height="27dp"
+
+            android:layout_marginStart="20dp"
+
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/roboto_medium"
+            android:gravity="center"
+            android:text="Fatigue"
+            android:textColor="#000000"
+            app:layout_constraintStart_toEndOf="@+id/textView85"
+            app:layout_constraintTop_toBottomOf="@+id/cardView49" />
+
+        <TextView
+            android:id="@+id/textView86"
+            android:layout_width="85dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:fontFamily="@font/biryani_bold"
+            android:text="See more"
+            android:textColor="#306A98"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView88" />
+
+        <TextView
+            android:id="@+id/textView87"
+            android:layout_width="150dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/roboto_bold"
+            android:gravity="center"
+            android:text="Services"
+            android:textColor="#1B1A1A"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardk"
+            android:layout_width="353dp"
+            android:layout_height="95dp"
+            android:layout_marginTop="4dp"
+            app:cardCornerRadius="10dp"
+            app:cardElevation="3dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView87">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/floatingActionButton6t"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:clickable="true"
+                    app:backgroundTint="#FFFFFF"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.487"
+                    app:srcCompat="@drawable/test" />
+
+                <TextView
+                    android:id="@+id/textView89"
+                    android:layout_width="115dp"
+                    android:layout_height="32dp"
+                    android:layout_marginTop="16dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Corona Test"
+
+                    android:textColor="#1B1A1A"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.132"
+                    app:layout_constraintStart_toEndOf="@+id/floatingActionButton6t"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView90"
+                    android:layout_width="242dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Safely Tested at home by verified personal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.567"
+                    app:layout_constraintStart_toEndOf="@+id/floatingActionButton6t"
+                    app:layout_constraintTop_toBottomOf="@+id/textView89" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView179"
+            android:layout_width="308dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="28dp"
+            android:gravity="center"
+            android:text="Please give us some reviews after having our facilities."
+            android:textColor="#1C1C1C"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.427"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cardk" />
+
+
+        <EditText
+            android:id="@+id/reviewbox"
+            android:layout_width="322dp"
+            android:layout_height="139dp"
+            android:layout_marginTop="68dp"
+            android:background="@drawable/box"
+            android:ems="10"
+            android:gravity="top"
+            android:hint="Write Your Review"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            android:paddingTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.494"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView179" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="42dp"
+            android:layout_height="36dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            app:layout_constraintBottom_toBottomOf="@+id/reviewbox"
+            app:layout_constraintEnd_toEndOf="@+id/reviewbox"
+            app:layout_constraintTop_toTopOf="@+id/reviewbox"
+            app:layout_constraintVertical_bias="0.853"
+            app:srcCompat="@drawable/nextpage" />
+
+
+        <TextView
+            android:id="@+id/textView180"
+            android:layout_width="147dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="16dp"
+            android:text="Our Reviews"
+            android:textColor="#1C1C1C"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.06"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/reviewbox" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recreview"
+            android:layout_width="match_parent"
+            android:layout_height="602dp"
+            android:layout_marginTop="15dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView180"
+          />
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView179" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    
+</ScrollView>
